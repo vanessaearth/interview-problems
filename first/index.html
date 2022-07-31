@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .img-box {
+      width: 1156px;
+      height: 490px;
+      background: url(../../problem-1/example-1.jpg) no-repeat 0 0;
+      background-size: contain;
+
+    }
+
+    @media screen and (max-width:1024px) {
+      .img-box {
+        margin: 0 auto;
+        width: 579px;
+        height: 358px;
+        background: url(../../problem-1/example-2.jpg) no-repeat 0 0;
+        background-size: contain;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="img-box"></div>
+  </div>
+</body>
+
+</html>
